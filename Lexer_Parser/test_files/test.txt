@@ -1,0 +1,31 @@
+array int [ 4 ] one
+array int [ 5 , 3 ] two
+int i
+i = 0
+int j
+j = 4
+int l
+l = 0
+int k
+k = 2
+int t
+t = 0
+write ( " One Dimensional array Test: " )
+int a
+a = 0
+while ( a <= 3 ) {
+one [ a ] = a
+write ( " one [ " , a , " ] = " , one [ a ] )
+a = a + 1
+}
+write ( " Two Dimensional array Test: " )
+while ( i <= j ) {
+while ( l <= k ) {
+two [ i , l ] = t
+t = t + 1
+write ( " two [ " , i , " , " ,  l , " ] = " , two [ i , l ] )
+l = l + 1
+}
+l = 0
+i = i + 1
+}

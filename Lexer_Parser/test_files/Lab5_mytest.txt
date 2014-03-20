@@ -1,0 +1,27 @@
+array int [ 5 ] oneDimArray
+array int [ 5 , 3 ] twoDimArray
+int i
+int j
+int k
+int l
+int t
+t = 0
+i  = 0
+l = 0
+j = 4
+k = 2
+while ( i <= j ) {
+oneDimArray [ i ] = i
+write ( " oneDimArray [ " , i , " ] = " oneDimArray [ i ] )
+}
+i = 0
+while ( i <= j ) {
+while ( l <= k ) {
+twoDimArray [ i , l ] = t
+t = t + 1
+write ( " twoDimArray [ " , i , " , " ,  l , " ] = " , twoDimArray [ i , l ] )
+l = l + 1
+}
+l = 0
+i = i + 1
+}
